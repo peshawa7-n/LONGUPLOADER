@@ -5,7 +5,7 @@ from telegram import Bot
 from telegram.error import TelegramError
 import logging
 
-# Configure logging to see detailed output
+# Configure logging to see detailed output main change
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)

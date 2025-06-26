@@ -13,10 +13,10 @@ logger = logging.getLogger(__name__)
 # --- Configuration ---
 # IMPORTANT: Replace these with your actual Telegram Bot Token and Channel ID
 # It's highly recommended to use environment variables in production environments like Railway.
-# Example: TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-# Example: TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'  # Get this from BotFather
-TELEGRAM_CHANNEL_ID = '-1001234567890'  # Get this from @RawDataBot (note the negative sign for channel IDs)
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
+# TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'  # Get this from BotFather
+# TELEGRAM_CHANNEL_ID = '-000'  # Get this from @RawDataBot (note the negative sign for channel IDs)
 
 # Directory to save downloaded videos temporarily
 DOWNLOAD_DIR = 'downloads'

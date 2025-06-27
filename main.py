@@ -132,7 +132,7 @@ async def main():
     # Replace these with the actual 1-hour and 2-hour YouTube video URLs you want.
     youtube_urls = [
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ",  # Example: A short video (for testing)
-        "https://www.youtube.com/watch?v=kYqg460iU-0",  # Example: A longer video (replace with your target videos)
+        "https://youtu.be/IALTVTcSG_I?si=UCLj6fw8YITxag7X",  # Example: A longer video (replace with your target videos)
         # Add more YouTube URLs here as needed for 1-hour and 2-hour videos
         # e.g., "https://www.youtube.com/watch?v=YOUR_1_HOUR_VIDEO_URL",
         # e.g., "https://www.youtube.com/watch?v=YOUR_2_HOUR_VIDEO_URL",
